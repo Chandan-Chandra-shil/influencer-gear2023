@@ -9,7 +9,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
-  background-color: #ffff;
+  background-color: rgb(198, 194, 194);
 }
 /* common styles hare */
 .container {
@@ -47,6 +47,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding-bottom: 5rem;
 }
 .section-items {
   display: flex;
@@ -73,17 +74,78 @@ body {
   border-radius: 41px;
   font-weight: 700;
   font-size: 16px;
-  color:#ffff;
+  color: #ffff;
   padding: 10px 24px;
-  ;
 }
-.item-image img{
-  border:2px solid #e02c6d;
-  border-radius: 5px;
+.item-image {
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/*  company styles hare  */
+
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.company-logo .gap {
+  padding-right: 2.5rem;
+}
+
+.company-logo img {
+  width: 5rem;
+  height: 5rem;
+}
+.company-logo {
+  border-top: 1px solid rgb(225, 143, 143);
+  border-bottom: 1px solid rgb(225, 143, 143);
+}
+
+.pg-title {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 60px;
+}
+.product-image img {
+  padding: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+.products-details{
+  display: grid;
+  grid-template-rows:repeat(2,1fr);
  
-  width: 440px;
-  min-height: 414px;
+  margin: 0 auto;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  background-color:#ffff;
+  border-radius: 15px;
+  
 }
-@media only screen and (mix-width:) {
+.product-title{
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.rating{
+  padding-left: 20px;
+  display: flex;
+  gap:10px;
+  color: #e02c6d;
+  padding-bottom: 10px;
+}
+.product-sub-title{
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
   
 }
